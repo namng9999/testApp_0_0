@@ -1,0 +1,40 @@
+{
+  "name": "passport-google-plus",
+  "description": "Passport strategy for using G+ Sign-In",
+  "contributors": [
+    {
+      "name": "Steve Bazyl",
+      "email": "sbazyl@google.com"
+    }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/sqrrrl/passport-google-plus.git"
+  },
+  "version": "0.5.1",
+  "main": "./lib/strategy",
+  "dependencies": {
+    "googleapis": "~1.0.0",
+    "green-jwt": "^0.0.8-alpha",
+    "passport" : "^0.2.x",
+    "request" : "^2.2.x",
+    "xtend" : "^2.x",
+    "async" : "^0.9.x"
+  },
+  "devDependencies": {
+    "should": "^4.3",
+    "mocha": "^2.0",
+    "rewire" : "^2.1",
+    "sinon" : "^1.12",
+    "nock": "^0.50"
+  },
+  "scripts": {
+    "test" : "mocha tests/*"
+  },
+  "keywords": [
+    "google",
+    "g+",
+    "passport"
+  ],
+  "license": "Apache 2"
+}

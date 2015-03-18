@@ -1,0 +1,15 @@
+<div ng-controller = "driveUICntrl">
+	<div><input type = "button" ng-click = "requestDriveFiles()" value = "request Drive Files"/></div>
+	<div>
+		<table>
+				<thead>
+					<th>Filename</th>
+				</thead>
+				<tbody>
+					<tr ng-repeat = "filename in driveFilenameArray">
+						<td>{{filename}}</td>
+					</tr>
+				</tbody>
+		</table>
+	</div>
+</div>

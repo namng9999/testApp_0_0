@@ -1,0 +1,15 @@
+{
+  "name": "testApp_0",
+  "version": "0.0.0",
+  "authors": [
+    "namng9999 <namng@hotmail.ca>"
+  ],
+  "main": "server.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jquery": "~2.1.3",
+    "angular": "~1.3.14",
+    "angular-route": "~1.3.14"
+  }
+}

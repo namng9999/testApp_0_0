@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Testing</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	
+	<body>
+		<div class = "userPanel" style = "position: fixed; right: 20px; top: 20px">User Panel</div>
+		<div class = "nav"><a href = "#/signup">Link</a><a href = "#/driveui">Drive</a></div>
+		<div ng-app = "app">
+			<div ng-view>
+			
+			</div>
+		</div>
+		
+	<script language = "Javascript" src = "bower_components/jquery/dist/jquery.min.js"></script>
+	<script language = "Javascript" src = "bower_components/angular/angular.min.js"></script>
+	<script language = "Javascript" src = "bower_components/angular-route/angular-route.min.js"></script>
+	<script language = "Javascript" src = "client/js/controllers/driveUICntrl.js"></script>
+	<script language = "Javascript" src = "client/js/configs/routeConfig.js"></script>
+	<script language = "Javascript" src = "client/js/app.js"></script>
+	</body>
+
+
+</html>
